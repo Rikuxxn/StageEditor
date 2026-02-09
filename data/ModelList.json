@@ -1,0 +1,18 @@
+[
+  {
+    "type": 0,
+    "modelpath": "data/MODELS/box.x"
+  },
+  {
+    "type": 1,
+    "modelpath": "data/MODELS/cylinder.x"
+  },
+  {
+    "type": 2,
+    "modelpath": "data/MODELS/sphere.x"
+  },
+  {
+    "type": 3,
+    "modelpath": "data/MODELS/capsule.x"
+  }
+]
