@@ -17,19 +17,19 @@
 //*****************************************************************************
 // インクルードファイル
 //*****************************************************************************
-#include<windows.h>
+#include "windows.h"
 #include "d3dx9.h"												// 描画処理に必要
 #include "dinput.h"												// 入力処理に必要
 #include "Xinput.h"												// ジョイパッド処理に必要
 #include "xaudio2.h"											// 2Dサウンド処理に必要
-#include <X3DAudio.h>											// 3Dサウンド処理に必要
-#include <array>
-#include <string>
-#include <vector>
-#include <stdio.h>
-#include <fstream>
-#include <commdlg.h>
-#include <functional>
+#include "X3DAudio.h"											// 3Dサウンド処理に必要
+#include "array"
+#include "string"
+#include "vector"
+#include "stdio.h"
+#include "fstream"
+#include "commdlg.h"
+#include "functional"
 
 //*****************************************************************************
 // ライブラリのリンク
@@ -46,7 +46,7 @@
 // マクロ定義
 //*****************************************************************************
 #define CLASS_NAME	  "WindowClass"								// ウィンドウクラスの名前
-#define WINDOW_NAME	  "STAGE EDITOR with TanekawaPhysics"		// ウィンドウの名前(キャプションに表示)
+#define WINDOW_NAME	  "STAGE EDITOR with SEED Physics"			// ウィンドウの名前(キャプションに表示)
 #define SCREEN_WIDTH  (1280)									// ウィンドウの幅
 #define SCREEN_HEIGHT (720)										// ウィンドウの高さ
 #define FVF_VERTEX_2D (D3DFVF_XYZRHW|D3DFVF_DIFFUSE|D3DFVF_TEX1)
